@@ -16,3 +16,13 @@ console.log(users);
 for (i=0;i<users.length; i++) {
     console.log(users[i].firstName)
 }
+
+function getUserFullName(x) {
+    let UserFullName = {};
+    for (i=0;i<users.length; i++) {
+        UserFullName[`user${i+1}`] = `${users[i].fullName}`
+    }
+    return UserFullName;
+}
+
+console.log(getUserFullName(users))
