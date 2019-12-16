@@ -8,5 +8,6 @@ const user = {
     lastName: 'Ivanov'
 }
 
-const userOutput = `${user.firstName} ${user.lastName}`
+user.fullName = `${user.firstName} ${user.lastName}`
+const userOutput = user.fullName;
 console.log(userOutput);
