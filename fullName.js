@@ -1,16 +1,14 @@
-const firstName = 'Петя';
-const lastName = 'Иванов';
-const fullName = `${firstName} ${lastName}`;
-console.log(fullName);
-
-const user = {
+const user1 = {
     firstName: 'Vasya',
-    lastName: 'Ivanov'
-}
+    lastName: 'Ivanov'}
 
-user.fullName = `${user.firstName} ${user.lastName}`
-const userOutput = user.fullName;
-console.log(userOutput);
 
-const usersArray = [fullName, user.fullName];
-console.log(usersArray);
+user1.fullName = `${user1.firstName} ${user1.lastName}`
+
+const user2 = {
+    firstName: 'Petya',
+    lastName: 'Ivanov'}
+user2.fullName = `${user2.firstName} ${user2.lastName}`
+
+const users = [user1, user2];
+console.log(users);
