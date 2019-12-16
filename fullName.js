@@ -12,3 +12,7 @@ user2.fullName = `${user2.firstName} ${user2.lastName}`
 
 const users = [user1, user2];
 console.log(users);
+
+for (i=0;i<users.length; i++) {
+    console.log(users[i].firstName)
+}
