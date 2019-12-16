@@ -11,3 +11,6 @@ const user = {
 user.fullName = `${user.firstName} ${user.lastName}`
 const userOutput = user.fullName;
 console.log(userOutput);
+
+const usersArray = [fullName, user.fullName];
+console.log(usersArray);
