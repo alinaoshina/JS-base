@@ -25,4 +25,19 @@ function getUserFullName(x) {
     return UserFullName;
 }
 
-console.log(getUserFullName(users))
+let usersContent = getUserFullName(users);
+console.log(usersContent)
+const myElement = document.getElementById('full');
+
+for (i=0;i<users.length; i++) {
+    const newElement = document.createElement("div");
+    newElement.innerHTML = `user${i+1}: ${usersContent[`user${i+1}`]}`;
+    myElement.appendChild(newElement);
+}
+
+
+
+
+
+
+
