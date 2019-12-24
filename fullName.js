@@ -35,6 +35,17 @@ for (i=0;i<users.length; i++) {
     myElement.appendChild(newElement);
 }
 
+let result = '';
+
+document.getElementById("knopka").addEventListener("click", function(event){
+    console.log(event);
+  });
+
+
+document.getElementById("vvod").addEventListener("input", function(event){
+    console.log(event);
+  });
+
 
 
 
