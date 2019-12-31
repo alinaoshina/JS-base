@@ -1,6 +1,7 @@
 const func1 = function(f) {
     console.log("1");
     f();
+    
 }
 
 const func2 = function() {
