@@ -1,4 +1,3 @@
-let text = '12';
-text = Number(text);
-text = +text;
-text = Math.floor(text);
+let num = 12;
+let text = String(num);
+let text2 = num.toString();
